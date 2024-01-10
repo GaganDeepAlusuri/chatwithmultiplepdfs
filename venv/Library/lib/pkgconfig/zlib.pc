@@ -1,0 +1,13 @@
+prefix=D:/chatwithmultiplepdfs/venv/Library
+exec_prefix=D:/chatwithmultiplepdfs/venv/Library
+libdir=D:/chatwithmultiplepdfs/venv/Library/lib
+sharedlibdir=D:/chatwithmultiplepdfs/venv/Library/lib
+includedir=D:/chatwithmultiplepdfs/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
